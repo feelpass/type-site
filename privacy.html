@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - type</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            min-height: 100vh;
+        }
+        h1 { font-size: 2rem; margin-bottom: 10px; color: #2c5364; }
+        .app-name { color: #666; margin-bottom: 30px; }
+        h2 { font-size: 1.3rem; margin: 30px 0 15px; color: #333; }
+        p, li { margin-bottom: 12px; color: #555; }
+        ul { padding-left: 20px; }
+        .date { color: #888; font-size: 0.9rem; margin-top: 40px; }
+        a { color: #2c5364; }
+        .lang { float: right; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="lang"><a href="privacy_ko.html" lang="ko">한국어</a></p>
+        <h1>Privacy Policy</h1>
+        <p class="app-name">type</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>Your shortcuts, settings, and the text you type are stored and processed on your device. type itself does not collect them, and the developer has no server that receives them. Third-party services included in the app collect limited technical data, as described in section 7.</p>
+        <ul>
+            <li><strong>Shortcut data:</strong> Stored in the device's internal storage. A copy leaves your device only if you export it to a file or turn on Google Drive backup yourself (section 6).</li>
+            <li><strong>App settings:</strong> Stored in the device's internal storage</li>
+            <li><strong>The text you type is never transmitted to any server</strong></li>
+        </ul>
+
+        <h2>2. Accessibility Service</h2>
+        <p>type uses the Android Accessibility Service API to provide its core functionality:</p>
+        <ul>
+            <li>Detecting text input to trigger your shortcuts</li>
+            <li>Performing text replacement in the active text field</li>
+            <li>Displaying type's own windows on top of other apps: the suggestion popup, the command palette, the optional floating button, and short notices</li>
+            <li>Running action shortcuts, including system actions such as Home, Back, lock screen, and screenshot</li>
+            <li>Knowing which app is in front and whether a keyboard is showing, so that shortcuts limited to certain apps work only there, the command palette closes when you leave, and the optional per-app keyboard auto switch can change the keyboard</li>
+            <li>Receiving hardware key presses to move through, confirm, or close the suggestion popup and to open the command palette with its keyboard shortcut</li>
+            <li>Reading the text you select or copy, so that the clipboard variable can insert it. This text is kept in memory only and is not saved</li>
+            <li>Switching to the Type keyboard while you try it in the app, and switching back when you leave</li>
+            <li>Opening type's own screens, such as returning to the app right after you turn the service on</li>
+        </ul>
+        <p>The Accessibility Service is used only to provide type's features, including those listed above. What it reads is processed on your device, and type does not send it to any server.</p>
+        <p>Separately, if you turn on the optional Usage access permission (Type Keyboard settings), per-app keyboard auto switch also reads which app most recently came to the front, on screens the Accessibility Service cannot see. The same permission also lets the play/pause action find the music app you used last. This is processed on your device and is not sent anywhere.</p>
+
+        <h2>3. Use of Information</h2>
+        <p>Usage statistics and crash reports are used only to understand how features are used and to fix problems. Advertising data is used by Google AdMob to show ads in the free version.</p>
+
+        <h2>4. Data Retention and Deletion</h2>
+        <p>Data stored on your device is deleted when you uninstall the app. You can also export and import your shortcuts as files for backup purposes; exported files stay wherever you saved them.</p>
+        <p>If you turned on Google Drive backup, the backup stays in your Google Drive after you uninstall the app. Delete it in the app (Settings &gt; Backup &amp; restore &gt; Delete backup from Drive) before uninstalling, or in Google Drive under Settings &gt; Manage apps.</p>
+        <p>If Android's own device backup is turned on for your Google Account, Android may include type's app data in that device backup. That backup is created and managed by Android and Google, not by type.</p>
+
+        <h2>5. Third-Party Sharing</h2>
+        <p>type does not share your shortcuts or the text you type with anyone. The third-party services listed in section 7 receive the technical data they collect themselves.</p>
+
+        <h2>6. Google Drive Backup (Optional)</h2>
+        <p>Google Drive backup is off unless you turn it on. It is a Premium feature.</p>
+        <ul>
+            <li><strong>What is saved:</strong> Your shortcuts (including everything you put in them, such as replacement text, images, and phone numbers or links used by action shortcuts) and your folders. App settings are not included.</li>
+            <li><strong>Where it is saved:</strong> In a hidden, app-specific folder in your own Google Drive. The developer has no server and cannot see or access this backup.</li>
+            <li><strong>Google account access:</strong> type asks only for permission to manage its own data in your Google Drive. It cannot see your other Drive files, and it does not collect or store your name, email address, or profile.</li>
+            <li><strong>When it is sent:</strong> When you tap Back up now, and once a day if you turn on Auto backup.</li>
+            <li><strong>How to stop or delete:</strong> In Settings &gt; Backup &amp; restore you can turn off Auto backup, delete the backup from Drive, or disconnect Google Drive. You can also remove type's access in your Google Account settings.</li>
+        </ul>
+        <p>The backup is stored by Google under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. type's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>.</p>
+
+        <h2>7. Third-Party Services</h2>
+        <p>type may use the following third-party services:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> For displaying advertisements. Ads are shown in the free version only. AdMob may collect device information and the advertising ID for ad delivery and personalization. Please refer to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+            <li><strong>Google Play Billing:</strong> For processing in-app purchases. Purchase data is handled by Google Play.</li>
+            <li><strong>Firebase (Analytics, Crashlytics, Remote Config):</strong> For usage statistics, crash reporting, and remote app settings. Firebase collects an app instance identifier, device and OS information, and events such as which kind of feature was used. The text you type and the content of your shortcuts are never included. Please refer to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>type does not knowingly collect personal information from children under the age of 13. If you believe a child has provided us with personal information, please contact us.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:philleeran@gmail.com">philleeran@gmail.com</a></p>
+
+        <p class="date">Effective date: October 13, 2026</p>
+    </div>
+</body>
+</html>
